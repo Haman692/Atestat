@@ -1,0 +1,92 @@
+haman@haman692-linux:~$ mkdir Atestat
+
+haman@haman692-linux:~$ cd Atestat/
+
+haman@haman692-linux:~/Atestat$ mkdir Toys for scholler
+
+haman@haman692-linux:~/Atestat$ dir
+
+for  scholler  Toys
+
+haman@haman692-linux:~/Atestat$ cd..
+
+cd..: command not found
+
+haman@haman692-linux:~/Atestat$ cd
+
+haman@haman692-linux:~$ mkdir Atestat
+
+haman@haman692-linux:~$ cd Atestat/
+
+haman@haman692-linux:~/Atestat$ mkdir 'Toys for scholler'
+
+haman@haman692-linux:~/Atestat$ dir
+
+Toys\ for\ scholler
+
+haman@haman692-linux:~/Atestat$ mkdir 'Toys for prescholler'
+
+haman@haman692-linux:~/Atestat$ cd Toys\ for\ scholler/
+
+haman@haman692-linux:~/Atestat/Toys for scholler$ touch Robots.txt
+
+haman@haman692-linux:~/Atestat/Toys for scholler$ touch Const.txt
+
+haman@haman692-linux:~/Atestat/Toys for scholler$ touch BoardGames.txt
+
+haman@haman692-linux:~/Atestat/Toys for scholler$ dir
+
+BoardGames.txt	Const.txt  Robots.txt
+
+haman@haman692-linux:~/Atestat/Toys for scholler$ cd..
+
+cd..: command not found
+
+haman@haman692-linux:~/Atestat/Toys for scholler$ cd .
+
+haman@haman692-linux:~/Atestat/Toys for scholler$ cd ..
+
+haman@haman692-linux:~/Atestat$ cd Toys\ for\ prescholler/
+
+haman@haman692-linux:~/Atestat/Toys for prescholler$ touch StuffToys.txt
+
+haman@haman692-linux:~/Atestat/Toys for prescholler$ touch Dols.txt
+
+haman@haman692-linux:~/Atestat/Toys for prescholler$ touch Cars.txt
+
+haman@haman692-linux:~/Atestat/Toys for prescholler$ cd ..
+
+haman@haman692-linux:~/Atestat$ cp -r Toys\ for\ scholler/*.txt Toys\ for\ prescholler/
+
+haman@haman692-linux:~/Atestat$ cd Toys\ for\ prescholler/
+
+haman@haman692-linux:~/Atestat/Toys for prescholler$ dir
+
+BoardGames.txt	Cars.txt  Const.txt  Dols.txt  Robots.txt  StuffToys.txt
+
+haman@haman692-linux:~/Atestat/Toys for prescholler$ cd ..
+
+haman@haman692-linux:~/Atestat$ mv Toys\ for\ prescholler/ ToysName
+
+haman@haman692-linux:~/Atestat$ mv ToysName/ Toys
+
+haman@haman692-linux:~/Atestat$ dir
+
+Toys  Toys\ for\ scholler
+
+haman@haman692-linux:~/Atestat$ cd Toys
+
+haman@haman692-linux:~/Atestat/Toys$ dir
+
+BoardGames.txt	Cars.txt  Const.txt  Dols.txt  Robots.txt  StuffToys.txt
+
+haman@haman692-linux:~/Atestat/Toys$ sudo snap install vlc
+
+[sudo] password for haman: 
+
+vlc 3.0.18 from VideoLAN✓ installed
+
+haman@haman692-linux:~/Atestat/Toys$ sudo snap list
+
+haman@haman692-linux:~/Atestat/Toys$ while true ; do echo "text" >> Dols.txt ; sleep 180; done
+
